@@ -1,12 +1,13 @@
 .container{
-    width: 1300px;
+    width: 1300px
     box-sizing: border-box;
-    margin: 15px;
+
 }
 .header{
-    width: 1300px;
+    width: 100%;
     height: 700px;
-    background-color: rgb(131, 131, 172);
+    background-color: blueviolet;
+
 }
 .head{
     display: flex;
@@ -52,29 +53,34 @@
     font-size: 40px;
     color:black;
     padding-left: 20px;
+    padding-bottom: 30px;
 }
 .second{
     font-size: 25px;
     color: white;
     padding-left: 20px;
+    padding-bottom: 30px;
 }
 .img1{
     width: 650px;
     margin-left: 110px;
 }
 .zip .form-input{
-    width: 400px;
-    height: 40px;
+    width: 450px;
+    height: 50px;
     margin-left: 20px;
+    margin-bottom: 30px;
 }
 .boxes{
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 .box1 h3{
     font-size: 30px;
     padding: 10px;
     color: white;
+    padding-bottom: 20px;
 }
 .service-line{
     width: 20px;
@@ -86,9 +92,97 @@
 }
 .box1 p{
     font-size: 20px;
-    padding: 10px;
+ 
     color: white;
 }
+/*features starts*/
+.features{
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+}
+.features-list{
+    display: flex; 
+ 
+}
+.features-list a{
+text-decoration: none;
+}
+.list-1{
+    display: flex;
+}
+.list-1:hover a{
+    color: blue;
+    }
+.lia a{
+   font-size: 40px;
+   color: black;
+ 
+}
+.last h3 a{
+    font-size: 22px;
+    padding: 15px;
+    color: black;
+
+}
+.last p{
+    font-size: 18px;
+     padding: 15px;
+     color: black;
+}
+.learn {
+    padding: 15px;
+    color: black;
+}
+/*features ends*/
+.about{
+    width: 100%;
+    height: auto;
+}
+.about-leter{
+    width: 50%;
+}
+.us {
+    font-size: 40px;
+    color: rgb(3, 3, 63);
+}
+.par{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.sub-he{
+    display: flex;
+}
+.ab-ic a{
+    font-size: 50px;
+    color: blue;
+}
+.hp h4{
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.hp p{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+.sub1{
+    margin-top: 20px;   
+}
+.sub2{
+     margin-top: 40px;
+}
+.sub3{
+   margin-top: 40px;
+}
+
+
+
+
 
 
 
