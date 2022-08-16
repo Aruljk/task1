@@ -1,7 +1,6 @@
 .container{
-    width: 1300px
-    box-sizing: border-box;
-
+    width: 1300px;
+    margin: auto;
 }
 .header{
     width: 100%;
@@ -139,6 +138,9 @@ text-decoration: none;
     width: 100%;
     height: auto;
 }
+.about-flex{
+    display: flex;
+}
 .about-leter{
     width: 50%;
 }
@@ -179,6 +181,142 @@ text-decoration: none;
 .sub3{
    margin-top: 40px;
 }
+.about-img{
+    width: 50%;
+    margin: 15px;
+}
+.imag-lo{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.imag-lo img{
+    width: 636px;
+    height: 430px;
+}
+/*about ends*/
+.services{
+    width: 100%;
+    height: 1098px;
+}
+.our-ser{
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 3px;
+    text-align: center;
+
+}
+.our-ser .service-line{
+    height: 5px;
+    width: 60px;
+    text-align: center;
+    padding-left: 20px;
+    
+}
+.ser-list{
+    width: 33.33%; 
+    padding: 15px; 
+    box-sizing: border-box;
+  
+
+}
+.ser-img{
+    height:auto;
+    width: 100%;
+    overflow: hidden;
+
+}
+.ser-img img{
+    width:100% ;
+    height: 268px;
+    transition: all 0.5s;
+    
+}
+.ser-img:hover img{
+    transform: scale(1.1);
+
+}
+.service-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ser-let{
+    border: solid 1px rgb(29, 26, 26,0.3)
+
+}
+.ser-let h3{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.ser-let h3 a{
+text-decoration: none;
+color: rgb(3, 3, 37);
+}
+.ser-let:hover a{
+    color: blue;
+
+}
+.ser-let p{
+    padding: 15px;
+    font-size:23px;
+
+}
+/*service ends*/
+
+/*call to action starts*/
+
+.action{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.action .act-bg{
+    background-image: url(../images/cta-bg.jpg);
+    height: 410px;
+     width: 100%;
+     box-sizing: border-box;
+    position: relative;
+    
+}
+.action .act-bg::after{
+    content: "";
+    background: rgba(0 0 0/0.6);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height:410px;
+}
+.act-box{
+    position: absolute;
+    top: 30%;
+}
+.act-box h4{
+font-size: 30px;
+color:white;
+text-align: center;
+margin-left: 300px;
+padding: 10px;
+}
+.act-box p{
+    font-size: 25px;
+    color:white;
+    
+    margin-left: 400px;
+    padding: 20px;
+}
+.mani{
+    margin-left: 600px;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    justify-content: center;
+    color:black;
+}
+.act-button .mani:hover{
+    background-color: blue;
+}
+
 
 
 
