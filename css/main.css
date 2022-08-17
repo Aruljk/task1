@@ -316,6 +316,22 @@ padding: 10px;
 .act-button .mani:hover{
     background-color: blue;
 }
+/*call to action ends*/
+/*gift section starts */
+.gift{
+    width: 100%;
+    height: 368px;
+    margin: 10px;
+} 
+.pic-let{
+    display: flex;
+}
+.pic-let.picture{
+    width: 30%;
+    height: 307px;
+
+}
+
 
 
 
