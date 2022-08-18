@@ -326,10 +326,54 @@ padding: 10px;
 .pic-let{
     display: flex;
 }
-.pic-let.picture{
-    width: 30%;
-    height: 307px;
+.gift-let h2{
+    font-size: 30px;
+    color: rgb(1, 1, 80);
+    padding: 10px;
+}
+.gift-let p{
+    font-size: 25px;
+    padding: 10px;
+}
+.simple li{
+    padding: 10px;
+    list-style: none;
+}
+.simple li i{
+    color: blue;
+    padding-right: 10px;
+}
+/*gift section ends */
+.features{
+    width: 100%;
+    height: 368px;
+    margin: 10px;
+}
+.featureim-let{
+    display: flex;
+}
+.feature-let{
+    width: 60%;
+}
+.feature-let h2{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(6, 6, 66);
+}
+.feature-let h3{
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+.feature-let p{
+    font-size: 20px;
+    padding: 10px;
+    padding-top: 20px;
 
+}
+.feature-img{
+    overflow: hidden;
 }
 
 
